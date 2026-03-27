@@ -1,0 +1,8 @@
+.DS_Store
+
+website/translated_docs
+website/build/
+website/node_modules
+
+.idea/
+*.iml

@@ -1,0 +1,130 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+@media screen and (max-width: 600px) {
+  .gitter-chat-embed {
+      box-sizing: border-box;
+      left: 20%;
+      top: 16% !important;
+  }
+
+  .gitter-open-chat-button {
+     padding: 7px 34px 7px 34px;
+
+  }
+
+  #back-to-top {
+    right: 12px;
+    width: 53px;
+    bottom: 15px;
+  }
+}
+
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0366d6;
+    text-decoration: underline;
+}
+
+.buttonWrapper {
+    padding: 3px 3px !important;
+}
+
+.announcement {
+    background-color: #20232a;
+    color: #fff;
+    /*font-weight: bold;*/
+    font-size: 24px;
+    padding: 7px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.announcement-inner {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.fixedHeaderContainer {
+    padding: 0;
+    height: auto;
+}
+
+.headerWrapper.wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.announcementBar {
+    background-color: #1b1b1d;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.announcementBar-inner {
+    margin: 0 auto;
+    max-width: 768px;
+    line-height: 30px;
+}
+
+.announcementBar-inner a{
+    display: inline;
+}
+
+.bannerText {
+    background: linear-gradient(45deg, #399cff, #00c775 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bannerText:hover {
+    border-bottom: solid 2px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .navPusher {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    ul.nav-site.nav-site-internal {
+        margin-top: 110px;
+    }
+
+    .navPusher {
+        padding-top: 160px;
+    }
+
+    .navSearchWrapper {
+        top: 70px;
+    }
+
+    .announcementBar {
+        height: 60px;
+    }
+}
