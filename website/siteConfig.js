@@ -12,6 +12,10 @@
 const users = require('./data/users');
 
 const siteConfig = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
   title: 'Casbin' /* title for your website */,
   tagline: 'An authorization library that supports access control models like ACL, RBAC, ABAC for Golang, Java, C/C++, Node.js, Javascript, PHP, Laravel, Python, .NET (C#), Delphi, Rust, Ruby, Swift (Objective-C), Lua (OpenResty), Dart (Flutter) and Elixir',
   url: 'https://v1.casbin.org' /* your website url */,
